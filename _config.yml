@@ -7,7 +7,7 @@ title: This is slogen
 subtitle: Welcome to my blog
 description: Thank you for you coming
 author: Txx
-language: zh-CN
+language: zh-Hans
 timezone: Asia/Shanghai
 
 # URL
@@ -63,11 +63,13 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+##theme: landscape
+##theme: maupassant
+theme: hexo-theme-next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/mikegit2014/mikegit2014.github.io
+  repo: git@github.com:mikegit2014/mikegit2014.github.io.git
   branch: master
